@@ -10,5 +10,5 @@
 
 #include <msp430g2553.h>
 int lab2a(void);
-
+int lab2b(void);
 #endif /* CONTROL_H_ */

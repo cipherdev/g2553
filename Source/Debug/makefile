@@ -9,6 +9,7 @@ CG_TOOL_ROOT := C:/ti/ccsv5/tools/compiler/msp430_4.1.1
 ORDERED_OBJS += \
 $(GEN_CMDS__FLAG) \
 "./main.obj" \
+"./lab2b.obj" \
 "./lab2a.obj" \
 -l"libc.a" \
 "../lnk_msp430g2553.cmd" \
@@ -123,8 +124,8 @@ g2553.out: $(OBJS) $(CMD_SRCS) $(GEN_CMDS)
 # Other Targets
 clean:
 	-$(RM) $(MSP430_EXECUTABLE_OUTPUTS__QUOTED) "g2553.out"
-	-$(RM) "lab2a.pp" "main.pp" 
-	-$(RM) "lab2a.obj" "main.obj" 
+	-$(RM) "lab2a.pp" "lab2b.pp" "main.pp" 
+	-$(RM) "lab2a.obj" "lab2b.obj" "main.obj" 
 	-@echo 'Finished clean'
 	-@echo ' '
 

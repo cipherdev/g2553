@@ -9,7 +9,8 @@
 void main(void)
 {
 	WDTCTL = WDTPW | WDTHOLD;
-	lab2a();
+	//lab2a();
+	lab2b();
 }
 
 
