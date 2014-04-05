@@ -28,7 +28,6 @@ int lab2a(void){
 			}
 		}
 	}
-	return 0;
 }
 
 

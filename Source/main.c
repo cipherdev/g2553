@@ -5,12 +5,15 @@
  *      Author: Anh Huy
  */
 #include "control.h"
-// nhan S2 de bat tat qua lai giua D7 va D6
+
 void main(void)
 {
 	WDTCTL = WDTPW | WDTHOLD;
 	//lab2a();
-	lab2b();
+	//lab2b();
+	//lab2c();
+	//lab2d();
+	lab2e();
 }
 
 
