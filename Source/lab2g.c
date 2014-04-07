@@ -28,9 +28,7 @@ int lab2g(void){
 				{
 					dem=0;
 					a++;
-					if(a == 99){
-						a=0;
-					}
+					if(a == 99) a=0;
 				}
 				show(a/10,T1);
 				show(a%10,T2);
