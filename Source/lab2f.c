@@ -2,7 +2,7 @@
  * lab2f.c
  *
  *  Created on: Apr 7, 2014
- *      Author: Anh
+ *      Author: Anh Huy
  */
 #include "control.h"
 
