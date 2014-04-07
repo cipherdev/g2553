@@ -12,6 +12,7 @@ C_SRCS += \
 ../lab2c.c \
 ../lab2d.c \
 ../lab2e.c \
+../lab2f.c \
 ../main.c 
 
 OBJS += \
@@ -20,6 +21,7 @@ OBJS += \
 ./lab2c.obj \
 ./lab2d.obj \
 ./lab2e.obj \
+./lab2f.obj \
 ./main.obj 
 
 C_DEPS += \
@@ -28,6 +30,7 @@ C_DEPS += \
 ./lab2c.pp \
 ./lab2d.pp \
 ./lab2e.pp \
+./lab2f.pp \
 ./main.pp 
 
 C_DEPS__QUOTED += \
@@ -36,6 +39,7 @@ C_DEPS__QUOTED += \
 "lab2c.pp" \
 "lab2d.pp" \
 "lab2e.pp" \
+"lab2f.pp" \
 "main.pp" 
 
 OBJS__QUOTED += \
@@ -44,6 +48,7 @@ OBJS__QUOTED += \
 "lab2c.obj" \
 "lab2d.obj" \
 "lab2e.obj" \
+"lab2f.obj" \
 "main.obj" 
 
 C_SRCS__QUOTED += \
@@ -52,6 +57,7 @@ C_SRCS__QUOTED += \
 "../lab2c.c" \
 "../lab2d.c" \
 "../lab2e.c" \
+"../lab2f.c" \
 "../main.c" 
 
 

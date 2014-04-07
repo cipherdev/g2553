@@ -1,1 +1,1 @@
-"./main.obj" "./lab2e.obj" "./lab2d.obj" "./lab2c.obj" "./lab2b.obj" "./lab2a.obj" -l"libc.a" "../lnk_msp430g2553.cmd" 
+"./main.obj" "./lab2f.obj" "./lab2e.obj" "./lab2d.obj" "./lab2c.obj" "./lab2b.obj" "./lab2a.obj" -l"libc.a" "../lnk_msp430g2553.cmd" 

@@ -22,4 +22,5 @@ int lab2b(void);
 int lab2c(void);
 int lab2d(void);
 int lab2e(void);
+int lab2f(void);
 #endif /* CONTROL_H_ */
