@@ -1,1 +1,1 @@
-"./showled7seg.obj" "./main.obj" "./lab2h.obj" "./lab2g.obj" "./lab2f.obj" "./lab2e.obj" "./lab2d.obj" "./lab2c.obj" "./lab2b.obj" "./lab2a.obj" -l"libc.a" "../lnk_msp430g2553.cmd" 
+"./showled7seg.obj" "./main.obj" "./lab3a.obj" "./lab2h.obj" "./lab2g.obj" "./lab2f.obj" "./lab2e.obj" "./lab2d.obj" "./lab2c.obj" "./lab2b.obj" "./lab2a.obj" -l"libc.a" "../lnk_msp430g2553.cmd" 

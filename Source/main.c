@@ -16,7 +16,8 @@ void main(void)
 	//lab2e();
 	//lab2f();  // Dem tu 0 cho toi 9999
 	//lab2g();
-	lab2h();
+	//lab2h();
+	lab3a();
 }
 
 
