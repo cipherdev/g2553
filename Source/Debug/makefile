@@ -10,6 +10,7 @@ ORDERED_OBJS += \
 $(GEN_CMDS__FLAG) \
 "./showled7seg.obj" \
 "./main.obj" \
+"./lab2h.obj" \
 "./lab2g.obj" \
 "./lab2f.obj" \
 "./lab2e.obj" \
@@ -130,8 +131,8 @@ g2553.out: $(OBJS) $(CMD_SRCS) $(GEN_CMDS)
 # Other Targets
 clean:
 	-$(RM) $(MSP430_EXECUTABLE_OUTPUTS__QUOTED) "g2553.out"
-	-$(RM) "lab2a.pp" "lab2b.pp" "lab2c.pp" "lab2d.pp" "lab2e.pp" "lab2f.pp" "lab2g.pp" "main.pp" "showled7seg.pp" 
-	-$(RM) "lab2a.obj" "lab2b.obj" "lab2c.obj" "lab2d.obj" "lab2e.obj" "lab2f.obj" "lab2g.obj" "main.obj" "showled7seg.obj" 
+	-$(RM) "lab2a.pp" "lab2b.pp" "lab2c.pp" "lab2d.pp" "lab2e.pp" "lab2f.pp" "lab2g.pp" "lab2h.pp" "main.pp" "showled7seg.pp" 
+	-$(RM) "lab2a.obj" "lab2b.obj" "lab2c.obj" "lab2d.obj" "lab2e.obj" "lab2f.obj" "lab2g.obj" "lab2h.obj" "main.obj" "showled7seg.obj" 
 	-@echo 'Finished clean'
 	-@echo ' '
 

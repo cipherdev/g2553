@@ -17,7 +17,8 @@ void show(int a, int t)
 }
 int lab2g(void){
 	P1DIR |= 0xF0;
-	P1REN |= 0x04;
+	P1REN |= 0x04;	////PxREN = 0; Pullup/pulldown resistor disable
+					////PxREN = 1; Pullup/pulldown resistor enabled
 	P2DIR |= 0xFF;
 	P2SEL = 0;
 	P2OUT &=~ 0xFF;
