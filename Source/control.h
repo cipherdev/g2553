@@ -16,7 +16,7 @@
 #define T3 0x40
 #define T4 0x80
 
-
+void showled(int a, int b);
 int lab2a(void);
 int lab2b(void);
 int lab2c(void);

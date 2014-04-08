@@ -14,7 +14,8 @@ C_SRCS += \
 ../lab2e.c \
 ../lab2f.c \
 ../lab2g.c \
-../main.c 
+../main.c \
+../showled7seg.c 
 
 OBJS += \
 ./lab2a.obj \
@@ -24,7 +25,8 @@ OBJS += \
 ./lab2e.obj \
 ./lab2f.obj \
 ./lab2g.obj \
-./main.obj 
+./main.obj \
+./showled7seg.obj 
 
 C_DEPS += \
 ./lab2a.pp \
@@ -34,7 +36,8 @@ C_DEPS += \
 ./lab2e.pp \
 ./lab2f.pp \
 ./lab2g.pp \
-./main.pp 
+./main.pp \
+./showled7seg.pp 
 
 C_DEPS__QUOTED += \
 "lab2a.pp" \
@@ -44,7 +47,8 @@ C_DEPS__QUOTED += \
 "lab2e.pp" \
 "lab2f.pp" \
 "lab2g.pp" \
-"main.pp" 
+"main.pp" \
+"showled7seg.pp" 
 
 OBJS__QUOTED += \
 "lab2a.obj" \
@@ -54,7 +58,8 @@ OBJS__QUOTED += \
 "lab2e.obj" \
 "lab2f.obj" \
 "lab2g.obj" \
-"main.obj" 
+"main.obj" \
+"showled7seg.obj" 
 
 C_SRCS__QUOTED += \
 "../lab2a.c" \
@@ -64,6 +69,7 @@ C_SRCS__QUOTED += \
 "../lab2e.c" \
 "../lab2f.c" \
 "../lab2g.c" \
-"../main.c" 
+"../main.c" \
+"../showled7seg.c" 
 
 

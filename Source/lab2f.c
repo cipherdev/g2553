@@ -6,15 +6,6 @@
  */
 #include "control.h"
 
-int sog[10] = {0xC0,0xF9,0xA4,0xB0,0x99,0x92,0x82,0xF8,0x80,0x90};
-
-void outleb(int a, int leb)
-{
-	P2OUT = sog[a];
-	P1OUT = leb;
-	__delay_cycles(5000);
-	P1OUT &=~leb;
-}
 int lab2f(void)
 {
 	WDTCTL = WDTPW | WDTHOLD;
@@ -32,12 +23,12 @@ int lab2f(void)
 				i=0;
 			}
 		}
-		outleb(i/1000,T1);
+		showled(i/1000,T1);
 		n=i%1000;
-		outleb(n/100,T2);
+		showled(n/100,T2);
 		n=i%100;
-		outleb(n/10,T3);
-		outleb(i%10,T4);
+		showled(n/10,T3);
+		showled(i%10,T4);
 	}
 }
 
