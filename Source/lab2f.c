@@ -8,7 +8,6 @@
 
 int lab2f(void)
 {
-	WDTCTL = WDTPW | WDTHOLD;
 	P1DIR = 0xF0;
 	P2DIR |= 0xFF;
 	P2SEL = 0;
