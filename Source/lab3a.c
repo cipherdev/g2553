@@ -18,7 +18,8 @@ int lab3a(void){
 
 	P1IE |= 0x04;
 	P1IES |= 0x04;
-	_BIS_SR(LPM2_bits + GIE);
+	P1IFG |=0x04;
+	_BIS_SR(LPM1_bits + GIE);
 	while(1){
 		j=0;
 	}
